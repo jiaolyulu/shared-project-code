@@ -1,4 +1,4 @@
-//需要把一个按钮一端接d3与正极，一端接地
+//需要把一个按钮一端接d3，一端接地
 //需要把led连在d2口
 const int ledPin=2;
 const int buttonPin=3;
