@@ -26,7 +26,7 @@ void loop() {
   }
 
   if (button){//当开关出于开启模式的时候，开始播放led的动画。
-    if ((millis()-timeStart)%4500<500){ //这里我们我们需要把
+    if ((millis()-timeStart)%4500<500){ //这里我们我们需要比较现在的时间与动画开始的时间，来判断处于时间轴哪个位置，led需要怎样去改变状态
       digitalWrite(ledPin,HIGH);
     }
     if ((millis()-timeStart)%4500<1000 && (millis()-timeStart)%4500>=500){
